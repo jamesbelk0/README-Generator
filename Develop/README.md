@@ -1,17 +1,30 @@
-# jamesbelk0
+
+  # jamesbelk0
   ## Description
-  Using node.js use the command prompt to generate a professioanl README file
-  ## Table of Content
-  undefined
+  A professional README.md file for a user repository. It is made through user input via node.js
+  ## Table of Contents
+  -[Description](#description)
+  -[Installation](#installation)
+  -[Usage](#usage)
+  -[License](#license)
+  -[Contribute](#contribute)
+  -[Test](#test)
+  -[Questions](#questions)
   ## Installation
-  npm inquirer, npm init, npm path, and npm fs
+  npm init, npm path, and npm install inquirer
   ## Usage
-  undefined
+  Run "node index.js" and answer the prompts to generate a README file with the info provided!
   ## License
-  ![license: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+  ![badge](https://img.shields.io/badge/license-MIT-blue.svg)
+  <br />
+  This project is covered under the MIT license.
   ## Contribute
-  please email with desired input or another way to reach out
+  undefined
+  If you would like to contribute, please follow the [Contributor Covenant](https://www.contributor-covenant.org/).
   ## Testing
-  undefined
+  No tests were done or are included.
   ## Questions
-  undefined
+  Please reach out if you have any issues via email or on GitHub<br />
+  My GitHub Username is: [jamesbelk0](https://github.com/jamesbelk0)<br />
+  My Email is: jamesbelk0@gmail.com
+
