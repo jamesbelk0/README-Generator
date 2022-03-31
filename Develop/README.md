@@ -6,13 +6,13 @@
   The code for this project can be found here: [README Generator](https://github.com/jamesbelk0/README-Generator)
   A professional README.md file for a user repository. It is made through user input via node.js
   ## Table of Contents
-  *[Description](#description)
-  *[Installation](#installation)
-  *[Usage](#usage)
-  *[License](#license)
-  *[Contributing](#contributing)
-  *[Tests](#tests)
-  *[Questions](#questions)
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
   ## Installation
   npm init, npm path, and npm install inquirer
   ## Usage
