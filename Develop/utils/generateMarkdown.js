@@ -39,13 +39,13 @@ function generateMarkdown(data) {
   The code for this project can be found here: [README Generator](https://github.com/${data.username}/${data.repo})
   ${data.description}
   ## Table of Contents
-  -[Description](#description)
-  -[Installation](#installation)
-  -[Usage](#usage)
-  -[License](#license)
-  -[Contributing](#contributing)
-  -[Tests](#tests)
-  -[Questions](#questions)
+  *[Description](#description)
+  *[Installation](#installation)
+  *[Usage](#usage)
+  *[License](#license)
+  *[Contributing](#contributing)
+  *[Tests](#tests)
+  *[Questions](#questions)
   ## Installation
   ${data.installation}
   ## Usage
@@ -55,7 +55,7 @@ function generateMarkdown(data) {
   <br />
   This project is covered under the ${data.license} license.
   ## Contributing
-  ${data.contributor}
+  ${data.contributor}<br/>
   If you would like to contribute, please follow the [Contributor Covenant](https://www.contributor-covenant.org/).${data.contribute}
   ## Tests
   ${data.test}
