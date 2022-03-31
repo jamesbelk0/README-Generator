@@ -24,20 +24,7 @@ const contribute = '';
 const questions = [
     {
         type: 'input',
-        name: 'title',
-        message: 'What is your GitHub username?',
-        default: 'jamesbelk0',
-        validate: githubInput => {
-            if (githubInput) {
-                return true;
-            } else {
-                console.log('Please enter your GitHub username!');
-            }
-        },
-    },
-    {
-        type: 'input',
-        name: 'github-repo',
+        name: 'repo',
         message: 'What is the name of the GitHub Repo?',
         default: 'README-Generator',
         validate: function (answer) {
@@ -49,7 +36,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'project-title',
+        name: 'projectTitle',
         message: 'What is your projects title?',
         default: 'README.me Generator with Node.js',
         validate: function (answer) {
@@ -89,11 +76,11 @@ const questions = [
         message: 'Pick a license for your project if used, or choose MIT',
         choices: ['MIT', 'Apache License 2.0', 'GNU LGP', 'Mozilla Public License 2.0', 'ISC']
     },
-    // {
-    //     type: 'input',
-    //     name: 'contributor',
-    //     default: 'James Belk'
-    // },
+    {
+        type: 'input',
+        name: 'contributor',
+        default: 'James Belk'
+    },
     {
         type: 'input',
         name: 'contribute',
