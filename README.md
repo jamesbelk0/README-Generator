@@ -43,4 +43,4 @@ James Belk
 ## Questions
 If there are any issues or questions, please contact at:
 - <jamesbelk0@gmail.com>
-- [GitHub](github.com/jamesbelk0)
+- [GitHub](https://github.com/jamesbelk0)
