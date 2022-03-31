@@ -28,7 +28,7 @@ https://github.com/jamesbelk0/README-Generator
 
 ## Link to screenshot/media:
 ![Image of README](./Develop/utils/assets/media/readme.screenshot.png) <br />
-A link to the video can be found here: <video src='https://youtu.be/tzR7oWmbIho' width=180/>
+A link to the video can be found here [Youtube](https://youtu.be/tzR7oWmbIho)
 
 ## Description
 1. Using node.js, capture user input with the inquirer npm and generate a working README.md file.

@@ -17,8 +17,7 @@
   ## Installation
   npm init, inquirer, path and fs
   ## Usage
-  Run "node index.js" and answer the prompts to generate a README file with the info provided!<br />
-  ![]
+  Run "node index.js" and answer the prompts to generate a README file with the info provided!
   ## License
   ![badge](https://img.shields.io/badge/license-ISC-blue.svg)
   <br />
