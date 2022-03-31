@@ -3,6 +3,7 @@
   ## Description
   ![badge](https://img.shields.io/badge/license-ISC-blue.svg)<br />
   <br />
+  ![small video of assignment](.utils/assets/media/coderunning "Video of my code running")
   The code for this project can be found here: [README Generator](https://github.com/jamesbelk0/README-Generator)
   A professional README.md file for a user repository. It is made through user input via node.js
   ## Table of Contents
@@ -14,15 +15,16 @@
   - [Tests](#tests)
   - [Questions](#questions)
   ## Installation
-  npm init, npm path, and npm install inquirer
+  npm init, inquirer, path and fs
   ## Usage
-  Run "node index.js" and answer the prompts to generate a README file with the info provided!
+  Run "node index.js" and answer the prompts to generate a README file with the info provided!<br />
+  ![]
   ## License
   ![badge](https://img.shields.io/badge/license-ISC-blue.svg)
   <br />
   This project is covered under the ISC license.
   ## Contributing
-  James Belk<br/>
+  James Belk<br/><br />
   If you would like to contribute, please follow the [Contributor Covenant](https://www.contributor-covenant.org/).
   ## Tests
   No tests were done or are included.

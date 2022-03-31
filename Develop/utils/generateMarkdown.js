@@ -36,6 +36,7 @@ function generateMarkdown(data) {
   ## Description
   ![badge](https://img.shields.io/badge/license-${data.license}-blue.svg)<br />
   <br />
+  ![small video of assignment](.utils/assets/media/coderunning "Video of my code running")
   The code for this project can be found here: [README Generator](https://github.com/${data.username}/${data.repo})
   ${data.description}
   ## Table of Contents
@@ -49,13 +50,14 @@ function generateMarkdown(data) {
   ## Installation
   ${data.installation}
   ## Usage
-  ${data.usage}
+  ${data.usage}<br />
+  ![]
   ## License
   ![badge](https://img.shields.io/badge/license-${data.license}-blue.svg)
   <br />
   This project is covered under the ${data.license} license.
   ## Contributing
-  ${data.contributor}<br/>
+  ${data.contributor}<br/><br />
   If you would like to contribute, please follow the [Contributor Covenant](https://www.contributor-covenant.org/).${data.contribute}
   ## Tests
   ${data.test}

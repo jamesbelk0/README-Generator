@@ -61,7 +61,7 @@ const questions = [
     {
         type: 'input',
         name: 'installation',
-        default: 'npm init, npm path, and npm install inquirer',
+        default: 'npm init, inquirer, path and fs',
         message: 'If needed, please describe what needs to be installed for the project'
     },
     {
