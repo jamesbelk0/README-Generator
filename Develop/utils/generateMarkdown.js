@@ -36,7 +36,7 @@ function generateMarkdown(data) {
   ## Description
   ![badge](https://img.shields.io/badge/license-${data.license}-blue.svg)<br />
   <br />
-  ![small video of assignment](.utils/assets/media/coderunning "Video of my code running")
+  <video src='./utils/assets/media/coderunning' width=180/>
   The code for this project can be found here: [README Generator](https://github.com/${data.username}/${data.repo})
   ${data.description}
   ## Table of Contents

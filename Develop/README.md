@@ -3,7 +3,7 @@
   ## Description
   ![badge](https://img.shields.io/badge/license-ISC-blue.svg)<br />
   <br />
-  ![small video of assignment](.utils/assets/media/coderunning "Video of my code running")
+  <video src='./utils/assets/media/coderunning' width=180/>
   The code for this project can be found here: [README Generator](https://github.com/jamesbelk0/README-Generator)
   A professional README.md file for a user repository. It is made through user input via node.js
   ## Table of Contents
