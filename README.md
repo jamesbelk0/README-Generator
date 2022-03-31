@@ -42,5 +42,5 @@ Run 'node index.js' to get the app running
 James Belk
 ## Questions
 If there are any issues or questions, please contact at:
-- jamesbelk0@gmail.com
-- github.com/jamesbelk0
+- <jamesbelk0@gmail.com>
+- [GitHub](github.com/jamesbelk0)
