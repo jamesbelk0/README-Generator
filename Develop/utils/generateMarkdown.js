@@ -26,14 +26,14 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   let licenseLink = ''
   if (license === 'MIT') {
-    chosenLicense = `[license: MIT](https://choosealicense.com/licenses/mit)`
+    licenseLink = `[license: MIT](https://choosealicense.com/licenses/mit)`
   } else if (license === 'Apache 2.0') {
   } else if (license === 'GNU LGP') {
-    chosenLicense = `[License: GPL v3](https://coosealicense.com/licenses/gpl-3.0]`
+    licenseLink = `[License: GPL v3](https://coosealicense.com/licenses/gpl-3.0]`
   } else if (license === 'Mozzilla Public License 2.0') {
-    chosenLicense = `[License: MPL 2.0](https://coosealicense.com/licenses/mpl-2.0]`
+    licenseLink = `[License: MPL 2.0](https://coosealicense.com/licenses/mpl-2.0]`
   } else if (license === 'ISC') {
-    chosenLicense = `[License: ISC](https://choosealicense.com/licenses/isc]`
+    licenseLink = `[License: ISC](https://choosealicense.com/licenses/isc]`
   } else if (license === '') {
     chosenLicense = `['']`;
   }
@@ -1345,7 +1345,10 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 For more information, please refer to <https://unlicense.org>`
 
+  } else if (license === '') {
+    licenseSection = ['']
   }
+  return licenseSection;
 };
 
 // TODO: Create a function to generate markdown for README
@@ -1375,7 +1378,8 @@ function generateMarkdown(data) {
   ${data.usage}<br />
 
   ## License
-  ${renderLicenseLink(data.license)}<br />
+  ${renderLicenseLink(data.license)}
+  <br />
   ${renderLicenseSection(data.license)}
   <br />
   This project is covered under the ${data.license} license.
