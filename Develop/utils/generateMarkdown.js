@@ -1357,11 +1357,12 @@ function generateMarkdown(data) {
   # ${data.projectTitle}
 
   ## Description
-  ![badge](https://img.shields.io/badge/license-${data.license}-blue.svg)<br />
+  ![badge](https://img.shields.io/badge/license-${data.license}-blue.svg)
   <br />
-  <video src='./utils/assets/media/coderunning' width=180/>
-  The code for this project can be found here: [README Generator](https://github.com/${data.username}/${data.repo})
   ${data.description}
+  <br />
+  The code for this project can be found here: [README Generator](https://github.com/${data.username}/${data.repo})
+  
 
   ## Table of Contents
   - [Description](#description)
