@@ -17,9 +17,11 @@
   ## Installation
   npm init, inquirer, path and fs
   ## Usage
-  Run "node index.js" and answer the prompts to generate a README file with the info provided!
+  Run "node index.js" and answer the prompts to generate a README file with the info provided!<br />
+  ![]
   ## License
-  ![badge](https://img.shields.io/badge/license-ISC-blue.svg)
+  <br />
+  undefined
   <br />
   This project is covered under the ISC license.
   ## Contributing
