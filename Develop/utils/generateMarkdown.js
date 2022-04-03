@@ -38,11 +38,11 @@ function renderLicenseLink(license) {
     chosenLicense = `['']`;
   }
   return licenseLink;
- }
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) { 
+function renderLicenseSection(license) {
   let licenseSection = ''
   if (license === 'MIT') {
     licenseSection = `MIT License
@@ -65,7 +65,8 @@ function renderLicenseSection(license) {
     LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.`;
-} else if (license === 'Apache 2.0') { lisenceSection = `Apache License
+  } else if (license === 'Apache 2.0') {
+    licenseSection = `Apache License
 Version 2.0, January 2004
 http://www.apache.org/licenses/
 
@@ -267,7 +268,8 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.`
 
-} else if (license === 'GNU LGP') { licenseSection = `GNU GENERAL PUBLIC LICENSE
+  } else if (license === 'GNU LGP') {
+    licenseSection = `GNU GENERAL PUBLIC LICENSE
 Version 3, 29 June 2007
 
 Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
@@ -942,7 +944,8 @@ the library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.  But first, please read
 <https://www.gnu.org/licenses/why-not-lgpl.html>.`
 
-} else if (license === 'Mozzilla Public License 2.0') { lisenceSection = `Mozilla Public License Version 2.0
+  } else if (license === 'Mozzilla Public License 2.0') {
+    licenseSection = `Mozilla Public License Version 2.0
 ==================================
 
 1. Definitions
@@ -1316,7 +1319,8 @@ Exhibit B - "Incompatible With Secondary Licenses" Notice
   This Source Code Form is "Incompatible With Secondary Licenses", as
   defined by the Mozilla Public License, v. 2.0.`
 
-} else if (license === 'ISC') { lisenceSection = `This is free and unencumbered software released into the public domain.
+  } else if (license === 'ISC') {
+    licenseSection = `This is free and unencumbered software released into the public domain.
 
 Anyone is free to copy, modify, publish, use, compile, sell, or
 distribute this software, either in source code form or as a compiled
@@ -1341,21 +1345,21 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 For more information, please refer to <https://unlicense.org>`
 
-} else if (license === '') {
-
-}
+  }
 };
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
   # ${data.projectTitle}
+
   ## Description
   ![badge](https://img.shields.io/badge/license-${data.license}-blue.svg)<br />
   <br />
   <video src='./utils/assets/media/coderunning' width=180/>
   The code for this project can be found here: [README Generator](https://github.com/${data.username}/${data.repo})
   ${data.description}
+
   ## Table of Contents
   - [Description](#description)
   - [Installation](#installation)
@@ -1366,19 +1370,23 @@ function generateMarkdown(data) {
   - [Questions](#questions)
   ## Installation
   ${data.installation}
+
   ## Usage
   ${data.usage}<br />
-  ![]
+
   ## License
   ${renderLicenseLink(data.license)}<br />
   ${renderLicenseSection(data.license)}
   <br />
   This project is covered under the ${data.license} license.
+
   ## Contributing
   ${data.contributor}<br/><br />
   If you would like to contribute, please follow the [Contributor Covenant](https://www.contributor-covenant.org/).${data.contribute}
+
   ## Tests
   ${data.test}
+
   ## Questions
   ${data.questions}<br />
   My GitHub Username is: [${data.username}](https://github.com/${data.username})<br />
